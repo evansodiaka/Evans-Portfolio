@@ -20,15 +20,23 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+          className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute rounded-full overflow-hidden"
         >
           <Image
-            src="/assets/photo.png"
+            src="/assets/Evan.png"
             priority
             quality={100}
             fill
+            sizes="(max-width: 1280px) 298px, 498px"
             alt=""
-            className="object-contain"
+            className="object-cover"
+          />
+          {/* Vignette overlay to darken edges */}
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background: 'radial-gradient(circle at center, transparent 30%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0.9) 100%)'
+            }}
           />
         </motion.div>
 

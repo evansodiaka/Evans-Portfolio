@@ -7,39 +7,52 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaPython,
+  FaJava,
+  FaAws,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiDotnet,
+  SiSharp,
+  SiBlazor,
+  SiDjango,
+  SiPostgresql,
+  SiAmazondynamodb,
+  SiGooglecloud,
+} from "react-icons/si";
 
 // about data
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I am a results-driven Software Engineer with over 5 years of experience in building scalable web applications and cloud-based solutions. My expertise lies in the .NET ecosystem, Azure cloud services, and full-stack development.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Evans Odiaka",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "+1(204) 869 6366",
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "5+ Years",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldName: "LinkedIn",
+      fieldValue: "evans-odiaka",
     },
     {
       fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "Canadian-Nigerian",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "evansodiaka@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -47,7 +60,7 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English",
     },
   ],
 };
@@ -57,37 +70,22 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "I have worked with various companies to build and modernize their software systems, focusing on performance, scalability, and user experience.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Western Financial Group",
+      position: "Associate Software Engineer (.NET)",
+      duration: "Jul 2022 - Present",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Kidco Construction LTD",
+      position: "Software Engineer",
+      duration: "Sep 2021 - Jun 2022",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "Think box",
+      position: "UI/UX Designer Tester",
+      duration: "Jul 2019 - Sep 2021",
     },
   ],
 };
@@ -97,37 +95,17 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Academic foundation in Computer Science and continuous learning through certifications and practical application.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
+      institution: "University of Manitoba",
+      degree: "Bachelor of Science in Computer Science",
+      duration: "2015 - 2021",
+    },
+    {
+      institution: "Microsoft Certified",
+      degree: "Azure Developer Fundamentals",
       duration: "2023",
-    },
-    {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
     },
   ],
 };
@@ -136,19 +114,23 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "A comprehensive set of technical skills focused on modern software development, cloud infrastructure, and user-centric design.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiSharp />,
+      name: "C#",
     },
     {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <SiDotnet />,
+      name: ".NET 8",
     },
     {
-      icon: <FaJs />,
-      name: "javascript",
+      icon: <SiBlazor />,
+      name: "Blazor",
+    },
+    {
+      icon: <FaAws />,
+      name: "Azure",
     },
     {
       icon: <FaReact />,
@@ -165,6 +147,34 @@ const skills = {
     {
       icon: <FaNodeJs />,
       name: "node.js",
+    },
+    {
+      icon: <FaJs />,
+      name: "javascript",
+    },
+    {
+      icon: <FaPython />,
+      name: "python",
+    },
+    {
+      icon: <FaJava />,
+      name: "java",
+    },
+    {
+      icon: <SiDjango />,
+      name: "django",
+    },
+    {
+      icon: <SiPostgresql />,
+      name: "SQL",
+    },
+    {
+      icon: <SiAmazondynamodb />,
+      name: "dynamodb",
+    },
+    {
+      icon: <SiGooglecloud />,
+      name: "GCP",
     },
     {
       icon: <FaFigma />,
@@ -191,7 +201,7 @@ const Resume = () => {
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
-        transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+        transition: { delay: 0.2, duration: 0.4, ease: "easeIn" },
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
@@ -216,27 +226,63 @@ const Resume = () => {
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
                   {experience.description}
                 </p>
-                <ScrollArea className="h-[400px]">
-                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
-                    {experience.items.map((item, index) => {
-                      return (
-                        <li
-                          key={index}
-                          className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
-                        >
-                          <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
-                            {item.position}
-                          </h3>
-                          <div className="flex items-center gap-3">
-                            {/* dot */}
-                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.company}</p>
-                          </div>
-                        </li>
-                      );
-                    })}
-                  </ul>
+                <ScrollArea className="h-[500px]">
+                  <section className="py-4 space-y-8 px-2">
+                    {/* Western Financial Group */}
+                    <div className="group">
+                      <div className="flex items-center mb-4">
+                        <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mr-4"></div>
+                        <h3 className="text-2xl font-bold text-white group-hover:text-accent transition-colors">Jul 2022 – Present</h3>
+                      </div>
+                      <h4 className="text-xl font-semibold text-white/90 mb-2">Associate Software Engineer (.NET) – Remote</h4>
+                      <p className="text-lg text-white/60 mb-6 font-medium">Western Financial Group</p>
+                      <ul className="space-y-3 text-white/80">
+                        <li>• Developed SaaS web apps with C#/.NET 8, Blazor components, improving performance 40%.</li>
+                        <li>• Built secure REST APIs (OAuth2/JWT) following SOLID principles with cross-functional teams.</li>
+                        <li>• Automated Azure DevOps pipelines, cutting release cycles 30%; led 30+ zero-defect releases.</li>
+                        <li>• Mentored as Senior Developer; achieved 95% sprint completion, zero critical incidents.</li>
+                      </ul>
+                      <p className="mt-4 text-sm font-medium text-accent bg-accent/10 px-3 py-1 rounded-lg inline-block">
+                        C#, .NET 8, Blazor, Azure DevOps, SQL Server, Entity Framework, REST API
+                      </p>
+                    </div>
+
+                    {/* Kidco Construction */}
+                    <div className="group border-l-4 border-white/10 pl-6">
+                      <div className="flex items-center mb-4">
+                        <div className="w-2 h-2 bg-gradient-to-r from-green-500 to-teal-500 rounded-full mr-4"></div>
+                        <h3 className="text-2xl font-bold text-white group-hover:text-accent transition-colors">Sep 2021 – Jun 2022</h3>
+                      </div>
+                      <h4 className="text-xl font-semibold text-white/90 mb-2">Software Engineer</h4>
+                      <p className="text-lg text-white/60 mb-6 font-medium">Kidco Construction LTD – Calgary, AB</p>
+                      <ul className="space-y-3 text-white/80">
+                        <li>• Migrated .NET 3.5 legacy systems to .NET 8/ASP.NET MVC, boosting efficiency 35%.</li>
+                        <li>• Optimized Azure databases for high-availability under heavy workloads.</li>
+                        <li>• Collaborated end-to-end SDLC; drove 95% sprint completion and team velocity gains.</li>
+                      </ul>
+                      <p className="mt-4 text-sm font-medium text-green-400 bg-green-400/10 px-3 py-1 rounded-lg inline-block">
+                        C#, .NET 8, ASP.NET MVC, Azure, SQL Server, Entity Framework
+                      </p>
+                    </div>
+
+                    {/* Think Box */}
+                    <div className="group">
+                      <div className="flex items-center mb-4">
+                        <div className="w-2 h-2 bg-gradient-to-r from-orange-500 to-red-500 rounded-full mr-4"></div>
+                        <h3 className="text-2xl font-bold text-white group-hover:text-accent transition-colors">Jul 2019 – Sep 2021</h3>
+                      </div>
+                      <h4 className="text-xl font-semibold text-white/90 mb-2">UI/UX Designer Tester</h4>
+                      <p className="text-lg text-white/60 mb-6 font-medium">Think Box – Winnipeg, MB</p>
+                      <ul className="space-y-3 text-white/80">
+                        <li>• Built UIs and automated tests, improving efficiency 50%.</li>
+                        <li>• Implemented responsive designs with development teams.</li>
+                        <li>• Enhanced test coverage, reducing UI support tickets 30%.</li>
+                      </ul>
+                      <p className="mt-4 text-sm font-medium text-orange-400 bg-orange-400/10 px-3 py-1 rounded-lg inline-block">
+                        UI/UX, Automated Testing, AWS
+                      </p>
+                    </div>
+                  </section>
                 </ScrollArea>
               </div>
             </TabsContent>

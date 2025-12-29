@@ -6,30 +6,38 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Full-Stack .NET Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+    "Building production-grade web applications using C#,\r\n.NET 8, ASP.NET Core,"
+    +"and SQL Server. I design scalable backends with clean architecture, RESTful "
+    +"APIs, and modern responsive front ends using React. Perfect for SaaS products, "
+    +"enterprise dashboards, and mission-critical systems serving thousands of users.",
+    href: "www.resumatrix.co",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Cloud Modernization & Azure Migration",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Migrate your monolithic or on-premise .NET applications to Azure cloud infrastructure. Refactor legacy codebases for performance, security, and "
+      +"maintainability while keeping systems live. Includes deployment to Azure "+"App Service, SQL optimization, and CI/CD pipeline setup for continuous "
+      +"reliability and rapid iteration.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "API Design & Third-Party Integrations",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Design and build secure REST APIs (OAuth2/JWT) for internal and external "
+      +"consumers. Integrate payment gateways, HR platforms, communication tools, "
+      +"and other third-party services. I handle background job processing, queuing "
+      +"systems, and error resilience so your integrations work reliably 24/7.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Technical MVP & Startup Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "Turn your SaaS idea into a working MVP in weeks, not months. Using AI-assisted coding (Cursor, Copilot), I rapidly prototype full-stack applications from concept to deployment. You get clean, documented code, production-ready infrastructure, and a foundation that scales as your business grows.",
     href: "",
   },
 ];
@@ -44,7 +52,7 @@ const Services = () => {
           initial={{ opacity: 0 }}
           animate={{
             opacity: 1,
-            transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
+            transition: { delay: 0.2, duration: 0.4, ease: "easeIn" },
           }}
           className="grid grid-cols-1 md:grid-cols-2 gap-[60px]"
         >
