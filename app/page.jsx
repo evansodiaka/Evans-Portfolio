@@ -18,7 +18,7 @@ const Home = () => {
               Hello I&apos;m <br /> <span className="text-accent">Evans Odiaka</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            I design and ship production-grade software—scalable systems, 
+            I design and ship production-grade software scalable systems, 
             clean APIs, and resilient web apps that work under real-world pressure.
             </p>
             {/* btn and socials */}
