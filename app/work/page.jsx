@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 import { BsArrowUpRight, BsGithub } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 
 import {
   Tooltip,
@@ -28,30 +29,63 @@ const projects = [
       "Developed a high-performance web application featuring real-time token streaming via Server-Sent Events (SSE). Built a robust .NET 8 backend with a clean architecture, utilizing OpenAI for semantic resume analysis and tailored cover letter generation. Implemented enterprise-grade security with Azure Key Vault and automated delivery via Azure DevOps CI/CD pipelines.",
     stack: [{ name: ".NET 8" }, { name: "Blazor" }, { name: "C#" }, { name: "Azure DevOps" }],
     image: "/assets/work/thumb4.png",
-    live: "",
-    github: "",
+    live: "https://resumatrix.co",
+    github: "https://www.linkedin.com/feed/update/urn:li:activity:7398144968328126464/",
   },
   {
     num: "02",
-    category: "backend",
-    title: "Secure RESTful API",
-    description:
-      "Built robust and secure REST APIs with OAuth2/JWT authentication. Designed scalable backend architectures following SOLID principles to deliver reliable services for cross-functional teams and external consumers.",
-    stack: [{ name: "ASP.NET Core" }, { name: "OAuth2/JWT" }, { name: "SQL Server" }, { name: "Entity Framework" }],
-    image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
     category: "fullstack",
-    title: "Legacy System Migration",
+    title: "Bethany's Pie Shop - .NET 9",
     description:
-      "Led the modernization of legacy .NET 3.5 applications by migrating them to .NET 8 with ASP.NET MVC architecture. Optimized database solutions for Azure, resulting in a 35% boost in operational efficiency and sales productivity.",
-    stack: [{ name: "ASP.NET MVC" }, { name: "Azure" }, { name: "SQL Server" }, { name: "Modern .NET" }],
+      "Full-stack e-commerce application built with modern .NET 9 and ASP.NET MVC. Features product catalog, shopping cart, order management, and admin dashboard. Demonstrates clean code architecture and responsive design principles.",
+    stack: [{ name: ".NET 9" }, { name: "ASP.NET MVC" }, { name: "Entity Framework" }, { name: "SQL Server" }],
     image: "/assets/work/thumb5.png",
     live: "",
     github: "https://github.com/evansodiaka/BethanysPieShop",
+  },
+  {
+    num: "03",
+    category: "backend",
+    title: "SuperHero API - .NET 8",
+    description:
+      "Built a RESTful Web API using .NET 8 with Entity Framework Core for CRUD operations. Implements clean architecture patterns, dependency injection, and async/await for optimal performance. Features comprehensive error handling and API documentation.",
+    stack: [{ name: ".NET 8" }, { name: "Entity Framework" }, { name: "Web API" }, { name: "SQL Server" }],
+    image: "/assets/work/thumb2.png",
+    live: "",
+    github: "https://github.com/evansodiaka/SuperHeroAPI-DotNet8",
+  },
+  {
+    num: "04",
+    category: "backend",
+    title: "JWT Authentication API",
+    description:
+      "Developed a secure Web API implementing JWT (JSON Web Token) authentication for user registration, login, and authorization. Features token-based security, password hashing, and role-based access control for enterprise applications.",
+    stack: [{ name: "ASP.NET Core" }, { name: "JWT" }, { name: "C#" }, { name: "Security" }],
+    image: "/assets/work/thumb7.png",
+    live: "",
+    github: "https://github.com/evansodiaka/JwtWebApi",
+  },
+  {
+    num: "05",
+    category: "frontend",
+    title: "IVY Framework - Open Source",
+    description:
+      "Contributing to the IVY framework open source project - A .NET application showcasing IVY framework capabilities and features. Demonstrates modern C# development practices and framework integration patterns.",
+    stack: [{ name: "C#" }, { name: ".NET" }, { name: "Open Source" }, { name: "IVY Framework" }],
+    image: "/assets/work/thumb6.png",
+    live: "",
+    github: "https://github.com/evansodiaka/IVY",
+  },
+  {
+    num: "06",
+    category: "frontend",
+    title: "Online Food Vendor Platform",
+    description:
+      "Web platform for online ordering and vendor management. Features restaurant listings, menu browsing, and order placement functionality. Built with HTML5, CSS3, and vanilla JavaScript showcasing responsive design and interactive UI elements.",
+    stack: [{ name: "HTML5" }, { name: "CSS3" }, { name: "JavaScript" }, { name: "Responsive Design" }],
+    image: "/assets/work/thumb1.png",
+    live: "",
+    github: "https://github.com/evansodiaka/OnlineFoodVendor",
   },
 ];
 
@@ -117,15 +151,19 @@ const Work = () => {
                     </Tooltip>
                   </TooltipProvider>
                 </Link>
-                {/* github project button */}
+                {/* github/linkedin project button */}
                 <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsGithub className="text-white text-3xl group-hover:text-accent" />
+                        {project.num === "01" ? (
+                          <FaLinkedinIn className="text-white text-3xl group-hover:text-accent" />
+                        ) : (
+                          <BsGithub className="text-white text-3xl group-hover:text-accent" />
+                        )}
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p>Github repository</p>
+                        <p>{project.num === "01" ? "View on LinkedIn" : "Github repository"}</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
