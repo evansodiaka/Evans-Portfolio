@@ -61,7 +61,7 @@ const projects = [
     description:
       "Developed a secure Web API implementing JWT (JSON Web Token) authentication for user registration, login, and authorization. Features token-based security, password hashing, and role-based access control for enterprise applications.",
     stack: [{ name: "ASP.NET Core" }, { name: "JWT" }, { name: "C#" }, { name: "Security" }],
-    image: "/assets/work/thumb7.png",
+    image: "/assets/work/thumb3.png",
     live: "",
     github: "https://github.com/evansodiaka/JwtWebApi",
   },
@@ -72,7 +72,7 @@ const projects = [
     description:
       "Contributing to the IVY framework open source project - A .NET application showcasing IVY framework capabilities and features. Demonstrates modern C# development practices and framework integration patterns.",
     stack: [{ name: "C#" }, { name: ".NET" }, { name: "Open Source" }, { name: "IVY Framework" }],
-    image: "/assets/work/thumb6.png",
+    image: "/assets/work/thumb1.png",
     live: "",
     github: "https://github.com/evansodiaka/IVY",
   },
