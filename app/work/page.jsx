@@ -28,7 +28,7 @@ const projects = [
     description:
       "Developed a high-performance web application featuring real-time token streaming via Server-Sent Events (SSE). Built a robust .NET 8 backend with a clean architecture, utilizing OpenAI for semantic resume analysis and tailored cover letter generation. Implemented enterprise-grade security with Azure Key Vault and automated delivery via Azure DevOps CI/CD pipelines.",
     stack: [{ name: ".NET 8" }, { name: "Blazor" }, { name: "C#" }, { name: "Azure DevOps" }],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/thumb4.png",
     live: "https://resumatrix.co",
     github: "https://www.linkedin.com/feed/update/urn:li:activity:7398144968328126464/",
   },
@@ -39,7 +39,7 @@ const projects = [
     description:
       "Full-stack e-commerce application built with modern .NET 9 and ASP.NET MVC. Features product catalog, shopping cart, order management, and admin dashboard. Demonstrates clean code architecture and responsive design principles.",
     stack: [{ name: ".NET 9" }, { name: "ASP.NET MVC" }, { name: "Entity Framework" }, { name: "SQL Server" }],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/thumb5.png",
     live: "",
     github: "https://github.com/evansodiaka/BethanysPieShop",
   },
@@ -50,7 +50,7 @@ const projects = [
     description:
       "Built a RESTful Web API using .NET 8 with Entity Framework Core for CRUD operations. Implements clean architecture patterns, dependency injection, and async/await for optimal performance. Features comprehensive error handling and API documentation.",
     stack: [{ name: ".NET 8" }, { name: "Entity Framework" }, { name: "Web API" }, { name: "SQL Server" }],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/thumb2.png",
     live: "",
     github: "https://github.com/evansodiaka/SuperHeroAPI-DotNet8",
   },
@@ -61,7 +61,7 @@ const projects = [
     description:
       "Developed a secure Web API implementing JWT (JSON Web Token) authentication for user registration, login, and authorization. Features token-based security, password hashing, and role-based access control for enterprise applications.",
     stack: [{ name: "ASP.NET Core" }, { name: "JWT" }, { name: "C#" }, { name: "Security" }],
-    image: "/assets/work/thumb4.png",
+    image: "/assets/work/thumb6.png",
     live: "",
     github: "https://github.com/evansodiaka/JwtWebApi",
   },
@@ -72,7 +72,7 @@ const projects = [
     description:
       "Contributing to the IVY framework open source project - A .NET application showcasing IVY framework capabilities and features. Demonstrates modern C# development practices and framework integration patterns.",
     stack: [{ name: "C#" }, { name: ".NET" }, { name: "Open Source" }, { name: "IVY Framework" }],
-    image: "/assets/work/thumb5.png",
+    image: "/assets/work/thumb7.png",
     live: "",
     github: "https://github.com/evansodiaka/IVY",
   },
