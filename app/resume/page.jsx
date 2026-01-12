@@ -74,7 +74,7 @@ const experience = {
   items: [
     {
       company: "Western Financial Group",
-      position: "Associate Software Engineer (.NET)",
+      position: "Senior Software Engineer (.NET)",
       duration: "Jul 2022 - Present",
     },
     {
@@ -105,7 +105,7 @@ const education = {
     {
       institution: "Microsoft Certified",
       degree: "Azure Developer Fundamentals",
-      duration: "2023",
+      duration: "2025",
     },
   ],
 };
