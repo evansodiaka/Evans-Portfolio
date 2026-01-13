@@ -234,7 +234,7 @@ const Resume = () => {
                         <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mr-4"></div>
                         <h3 className="text-2xl font-bold text-white group-hover:text-accent transition-colors">Jul 2022 – Present</h3>
                       </div>
-                      <h4 className="text-xl font-semibold text-white/90 mb-2">Associate Software Engineer (.NET) – Remote</h4>
+                      <h4 className="text-xl font-semibold text-white/90 mb-2">Senior Software Engineer (.NET) – Remote</h4>
                       <p className="text-lg text-white/60 mb-6 font-medium">Western Financial Group</p>
                       <ul className="space-y-3 text-white/80">
                         <li>• Developed SaaS web apps with C#/.NET 8, Blazor components, improving performance 40%.</li>
